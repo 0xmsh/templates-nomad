@@ -34,7 +34,7 @@ job "traefik" {
           "--entrypoints.web.address=:80",
           "--entrypoints.web-secure.address=:443",
           "--certificatesresolvers.myresolver.acme.tlschallenge=true",
-          "--certificatesresolvers.myresolver.acme.email=mohitshi@icloud.com",
+          "--certificatesresolvers.myresolver.acme.email=your@email.com",
           "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
         ]
 
