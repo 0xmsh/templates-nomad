@@ -14,7 +14,7 @@ job "django-app" {
       driver = "docker"
 
       config {
-        image = "hello-django:v0.1"
+        image = "momosh13/hello-django:v0.1"
         ports = ["django"]
 
         volumes = [
